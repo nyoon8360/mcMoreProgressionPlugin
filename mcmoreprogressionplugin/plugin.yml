@@ -1,0 +1,21 @@
+name: CorePluggin
+main: user.nyoon.plugincore.PluginCore
+version: 1.0
+api-version: 1.13
+commands:
+   giveCustomItems:
+      description: Gives custom items
+      usage: /<command>
+   condense:
+      description: Condenses emeralds
+      usage: /<command>
+   test:
+      description: Testing purposes
+      usage: /<command>
+   decondense:
+      description: Decondenses emeralds
+      usage: /<command>
+   survival:
+      description: Turns player to survival mode
+      usage: /<command>
+depend: [WorldGuard, WorldEdit]
